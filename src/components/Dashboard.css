@@ -1,0 +1,43 @@
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .login-info,
+  .signup-info {
+    margin-bottom: 20px;
+  }
+  
+  .login-info h3,
+  .signup-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    margin-bottom: 10px;
+  }
+  
+  .user-email {
+    font-weight: bold;
+  }
+  
+  .user-password {
+    margin-left: 10px;
+  }
+  

@@ -1,0 +1,115 @@
+.comments-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .emoji-picker {
+    margin-bottom: 16px;
+  }
+  
+  .emoji-picker span {
+    margin-right: 8px;
+  }
+  
+  button {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  .comment {
+    margin-bottom: 16px;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .comment p {
+    margin-bottom: 8px;
+  }
+  
+  .comment button {
+    font-size: 16px;
+  }
+  
+  .reply {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .reply p {
+    margin-bottom: 0;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+  }
+  
+  /* Add this to your Comments.css file */
+
+.comments-container {
+    /* ... (previous styles) */
+  }
+  
+  .like-btn,
+  .emoji-btn {
+    font-size: 16px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .like-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .emoji-picker {
+    /* ... (previous styles) */
+    display: flex;
+    align-items: center;
+  }
+  
+  .emoji-picker button {
+    font-size: 20px;
+  }
+  
+  /* Add a class for selected emoji */
+  .selected-emoji {
+    font-size: 20px;
+  }
+  
+  /* Adjust the input field */
+  input[type="text"] {
+    /* ... (previous styles) */
+    margin-top: 0;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+  }
+  
